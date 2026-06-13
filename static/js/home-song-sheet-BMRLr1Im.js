@@ -1,0 +1,1 @@
+import{M as e}from"./index-B1JuI3eO.js";var t=()=>{let t={timestamp:new Date().getTime()};return e.request({url:`/playlist/catlist`,method:`get`,params:t})},n=({order:t,cat:n,offset:r,limit:i})=>{let a={timestamp:new Date().getTime(),order:t,cat:n,offset:r,limit:i};return e.request({url:`/top/playlist`,method:`get`,params:a})};export{n,t};
