@@ -1,0 +1,1 @@
+import{M as e}from"./index-GEgbDjUf.js";var t=({id:t})=>{let n={timestamp:new Date().getTime(),id:t};return e.request({url:`/album`,method:`get`,params:n})},n=({id:t,offset:n,limit:r})=>{let i={timestamp:new Date().getTime(),id:t,offset:n,limit:r};return e.request({url:`/artist/album`,method:`get`,params:i})};export{n,t};

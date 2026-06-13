@@ -1,1 +1,0 @@
-import{M as e}from"./index-B1JuI3eO.js";var t=()=>{let t={timestamp:new Date().getTime()};return e.request({url:`/toplist`,method:`get`,params:t})};export{t};

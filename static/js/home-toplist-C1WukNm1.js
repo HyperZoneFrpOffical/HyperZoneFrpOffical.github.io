@@ -1,0 +1,1 @@
+import{M as e}from"./index-GEgbDjUf.js";var t=()=>{let t={timestamp:new Date().getTime()};return e.request({url:`/toplist`,method:`get`,params:t})};export{t};
